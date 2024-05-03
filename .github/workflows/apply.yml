@@ -26,7 +26,7 @@ jobs:
           directory: .
           framework: terraform 
 
-  Apply:
+   Apply:
     name: 'Apply Changes'
     runs-on: ubuntu-latest
     environment: aws_credentials
